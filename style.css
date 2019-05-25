@@ -1,0 +1,23 @@
+body{
+    line-height: 1em;
+}
+
+#section1{
+    background: url(images/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
+    color: white;
+}
+#section2{
+    background: #fdc845;
+}
+
+#section4{
+    height: 300px;
+    background: url(images/section4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    color: white;
+}
+.fas{
+    font-size: 50px;
+}
