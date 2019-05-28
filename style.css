@@ -5,7 +5,7 @@ body{
 }
 section{
     margin: 0 auto;
-    padding:20px 0;
+    padding:40px 0;
  
     
 }
@@ -35,19 +35,14 @@ section{
     height: 50px;
 }
 
-footer{
-    background: black;
-}
-
 .iconify{
     font-size: 70px;
     color: #b84673;
 }
 
 .fab{
-    font-size: 40px;
-    padding: 20px;
-    color: white;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .fa-heart{
