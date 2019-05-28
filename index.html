@@ -7,43 +7,69 @@
 
   <title>My Mobile Layout</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <script src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <section id="section1">
+  <section id="section1" class="header pt-md-0">
     <div class="row w-75 mx-auto">
-
-      <div class="col-md-7 my-auto mb-5 text-center text-md-left">
+        <nav class="navbar navbar-expand-lg w-100 navbar-light nav-desktop d-none d-md-block">
+            <a class="navbar-brand text-warning" href="#">Start Bootstrap</a>
+            <ul class="navbar-nav float-right">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Download</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Features</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+      <div class="row w-75 mx-auto">
+      <div class="col-md-6 my-auto mb-5 text-center text-sm-left px-md-5">
         <div class="heading">
-          <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-          <button type="button" class="btn btn-outline-light border rounded-pill mx-50 text-center mb-5">START NOW FOR FREE!</button>
+          <h4 class="mt-4 display-md-2">New Age is an app landing page that will help you beautifully showcase your new
+            mobile app, or anything else!</h4>
+          <a href="#" class="btn btn-outline-light border rounded-pill text-center mt-4 mb-5 px-4 py-2 p-2">START
+            NOW FOR FREE!</a>
         </div>
       </div>
-      <div class="col-md-5 iphone-display mx-auto text-center">
-        <img src="images/iphone.png" class="iphone w-50 text-center" alt="iphone">
+      <div class="col-md-6 iphone-display mx-auto text-center">
+        <img src="images/iphone.png" class="iphone w-50 text-center mt-4 mb-4" alt="iphone">
       </div>
     </div>
   </section>
 
   <section id="section2">
-    <div class="row w-75 mx-auto">
+    <div class="row w-75 mx-auto m-5">
       <div class="col-md text-center">
-        <h1>Discover what all the buzz is about!</h1>
-        <p>Our app is available on any mobile device! Download now to get started!</p>
-        <div class="play-buttons d-inline-block">
-          <a href="#"><img src="images/play-store.png" class="store-icons d-block d-md-inline mb-3 mr-md-3" alt="play-store"></a>
-          <a href="#"><img src="images/app-store.png"  class="store-icons d-block d-md-inline mb-3" alt="app-store"></a>
+        <h1 class="m-4 display-4">Discover what all the buzz is about!</h1>
+        <p class="text-dark">Our app is available on any mobile device! Download now to get started!</p>
+        <div class="col-md play-buttons text-center">
+          <a href="#"><img src="images/play-store.png" class="store-icons mb-3" alt="play-store"></a>
+          <a href="#"><img src="images/app-store.png" class="store-icons mb-3" alt="app-store"></a>
         </div>
         </button>
 
@@ -60,38 +86,39 @@
       <hr>
     </div>
     <div class="row w-75 mx-auto">
-      <div class="col-md-4 text-center">
-        <img src="images/iphone.png" alt="" class="img-mobile w-50 mb-5">
+      <div class="col-md-4 text-center mt-3">
+        <img src="images/iphone.png" alt="" class="img-mobile w-75 w-md-75 my-5">
       </div>
       <div class="col-md-8 text-center">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="icons mb-5">
-              <span class="iconify" data-icon="fa-solid:mobile-alt" data-inline="false"></span>
-              <h3>Device Mockups</h3>
+        <div class="row w-75 mx-auto">
+          <div class="col-md-6 mt-3">
+            <div class="icons my-5">
+              <span class="iconify mb-2 mt-1" data-icon="simple-line-icons:screen-smartphone"
+                data-inline="false"></span>
+              <h4>Device Mockups</h4>
               <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="icons mb-5">
-              <span class="iconify" data-icon="bytesize:camera" data-inline="false"></span>
-              <h3>Flexible Use</h3>
+            <div class="icons my-5">
+              <span class="iconify mb-2" data-icon="bytesize:camera" data-inline="false"></span>
+              <h4>Flexible Use</h4>
               <p>Put an image, video, animation, or anything else in the screen!</p>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row w-75 mx-auto">
           <div class="col-md-6">
-            <div class="icons mb-5">
-              <span class="iconify" data-icon="bytesize:gift" data-inline="false"></span>
-              <h3>Free to Use</h3>
+            <div class="icons my-5">
+              <span class="iconify mb-2" data-icon="bytesize:gift" data-inline="false"></span>
+              <h4>Free to Use</h4>
               <p>As always, this theme is free to download and use for any pupose!</p>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="icons mb-5">
-              <span class="iconify" data-icon="uil:unlock-alt" data-inline="false"></span>
-              <h3>Open Source</h3>
+            <div class="icons my-5">
+              <span class="iconify mb-2" data-icon="simple-line-icons:lock-open" data-inline="false"></span>
+              <h4>Open Source</h4>
               <p>Since this theme is MIT licensed, you can use it commercially!</p>
             </div>
           </div>
@@ -103,42 +130,43 @@
 
   <section id="section4">
     <div class="row w-75 mx-auto">
-      <div class="col-md-4 text-center">
-        <h1 class="mb-4">Stop waiting. <br>Start building.</h1>
-        <button type="button" class="btn btn-outline-light rounded-pill">LET'S GET STARTED!</button>
+      <div class="col-md-8 text-left">
+        <h1 class="display-md-4 mb-4">Stop waiting. <br>Start building.</h1>
+        <a href="#" class="border rounded-pill px-4 py-2 text-light">LET'S GET STARTED!</a>
       </div>
   </section>
 
   <section id="section5">
-    <div class="row">
-      <div class="col-md text-center">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Start Bootstrap</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-          </button>
+    <div class="row m-0">
+      <div class="col-md text-center p-0">
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Download</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <h1 class="my-5">We <i class="fas fa-heart"></i> new friends!</h1>
-        <div class="btn-social-parent">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light nav-mobile d-md-none">
+            <a class="navbar-brand text-warning ml-3" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <small>Menu <span class="navbar-toggler-icon"></span></small>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Download</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <h1 class="mt-5">We <i class="fas fa-heart"></i> new friends!</h1>
+        <div class="social-parent text-center mt-3">
 
-          <button type="button" class="btn-twitter border rounded-circle text-light"><i class="fab fa-twitter display-4"></i></button>
-          <button type="button" class="btn-fb border rounded-circle text-light"><i class="fab fa-facebook-f
-            "></i></button>
-          <button type="button" class="btn-google border rounded-circle text-light"><i class="fab fa-google-plus-g"></i></button>
+          <a class="btn-twitter rounded-circle d-inline-block"><i class="fab fa-twitter text-light mt-3"></i></a>
+          <a class="btn-fb  rounded-circle d-inline-block"><i class="fab fa-facebook-f  text-light mt-3"></i></a>
+          <a class="btn-google rounded-circle d-inline-block"><i class="fab fa-google-plus-g  text-light mt-3"></i></a>
 
         </div>
       </div>
@@ -147,14 +175,15 @@
   </section>
 
   <footer class="bg-dark">
-    <div class="row w-75 mx-auto">
-      <div class="col-md text-center text-muted">
-        <p class="mt-2">Your Website 2019. All Rights Reserved.</p>
-        <div class="foot1">
-          <a href="#" class="text-muted">Privacy</a>
-          <a href="#" class="text-muted">Terms</a>
+    <div class="row w-75 mx-auto text-center">
+      <div class="col-md ">
+        <p class="mt-3 mb-0">&copy; <small class="text-muted">Your Website 2019. All Rights Reserved.</p>
+        <div class="end">
+          <a href="#" class="text-muted mr-2">Privacy</a>
+          <a href="#" class="text-muted mr-2">Terms</a>
           <a href="#" class="text-muted">FAQ</a>
-        </div>
+          </small>
+        </div>*
       </div>
     </div>
   </footer>
