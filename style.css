@@ -1,54 +1,76 @@
 body{
-    font-family: Muli,Helvetica,Arial,sans-serif;
-    line-height: 1.5em;
-
+    font-family: 'Palanquin', sans-serif;
 }
 section{
     margin: 0 auto;
     padding:40px 0;
- 
-    
-}
+ }
 #section1{
     background: url(images/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
     color: white;
 }
-#section2{
-    background: #fdc845;
+.heading a, #section4 a{
+    font-size: 10px;
 }
-
+#section2{
+    background: #fdc844;
+}
+#section2 img{
+    width: 145px;
+    height: 45px;
+}
 #section4{
-    height: 300px;
+    height: 650px;
     background: url(images/section4.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.8;
     color: white;
-}
+    position: relative;
+    z-index: 1;
+} 
 
+#section4::after{
+    content: '\A';
+    position: absolute;
+    width: 100%; 
+    height:100%;
+    top:0; 
+    left:0;
+    background:rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+#section4 .row{
+    margin-top: 175px;
+}
+hr{
+    width: 70px;
+}
 #section5{
-    background: #fdc845;
+    padding: 15px 0;
+    height: 300px;
+    background: #fdc844;
 }
-
+small{
+    font-size: 10px;
+    color: black;
+}
 .store-icons{
     height: 50px;
 }
-
 .iconify{
-    font-size: 70px;
-    color: #b84673;
+    font-size: 65px;
+    color: #af385d;
 }
-
+p{
+    font-size: 15px;
+    color: #757f88;
+}
 .fab{
-    font-size: 20px;
-    padding: 10px;
+    font-size: 30px;
 }
-
 .fa-heart{
     color: #dd4b39;
 }
-
 .btn-twitter{
     background: #1da1f2;
 }
@@ -58,3 +80,27 @@ section{
 .btn-google{
     background: #dd4b39;
 }
+
+.social-parent a{
+    width: 60px;
+    height: 60px;
+}
+footer{
+    height:80px;
+}
+/* .s-icons{
+    background-image: url(images/social.png);
+    background-position-y: 0px;
+    background-size: 280px;
+    width:80px;
+    height: 80px;
+}
+.twitter{
+    background-position-x: -14px;
+}
+.fb{
+    background-position-x: -101px;
+}
+.google{
+    background-position-x: 90px;
+} */
